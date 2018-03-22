@@ -1,0 +1,50 @@
+.generatedjson{
+  float: right;
+  height: 100%;
+  width: 50%;
+  background: #838982;
+}
+
+.generatedjson pre{
+  margin: 20;
+}
+
+.jsonbuilder{
+  float: left;
+  height: 100%;
+  width: 50%;
+  background: #c1c1c1;
+}
+
+.jsonbuilder .compontents{
+  margin: 20;
+}
+
+.section {
+  margin: 10;
+}
+
+.text-input {
+  margin: 10;
+}
+
+.text-input input {
+  margin-left: 5;
+}
+
+.array-input {
+  margin: 10;
+}
+
+.array-input input {
+  margin-left: 5;
+  width: 40;
+}
+
+.number-input {
+  margin: 10;
+}
+
+.number-input input {
+  margin: 5;
+}
