@@ -22,29 +22,4 @@ describe('<SectionComponent />', () => {
       expect(props.createChildren).to.have.been.called;
     });
   });
-
-  context('when propertyName starts with $', () => {
-    const props = {
-      name: '$name',
-      createChildren: sinon.spy(),
-    };
-
-    const wrapper = shallow(<SectionComponent {...props} />);
-    const input = wrapper.find('input');
-
-    it('renders input field as placeholder for the value of the propertyName', () => {
-      expect(input.props()).to.deep.include({ placeholder: props.name.replace('$', '') });
-    });
-
-    it('calls createChildren', () => {
-      expect(props.createChildren).to.have.been.called;
-    });
-
-    context('and input value changed', () => {
-      it('changes tthe state of propertyName', () => {
-        input.simulate('change', { target: { value: 'something' } });
-        expect(wrapper.state()).to.eql( { propertyName: 'something' } );
-      });
-    });
-  });
 });
