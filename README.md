@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/mhmoudgmal/JSON.builder.svg?branch=master)](https://travis-ci.org/mhmoudgmal/JSON.builder)
+[![Build Status](https://travis-ci.org/mhmoudgmal/json-builder.svg?branch=master)](https://travis-ci.org/mhmoudgmal/json-builder)
 
-JSON Builder (Under development)
+JSON Builder **(Under development)**
 
-generate json using a UI form configured as json-schema
+> Generate json using a UI form configured as json-schema
