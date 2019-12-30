@@ -1,9 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { map, merge } from 'lodash';
+import {
+  map,
+  find,
+  merge,
+  filter,
+  findValue
+} from 'lodash';
 
-import { OBJECT } from '../types';
 import schema from '../exampleSchema';
+import { OBJECT } from '../types';
 import { schemaTransformer } from './services'
 import { SectionComponent } from './components/inputs';
 
